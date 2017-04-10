@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: I Gen App
+  host: I-Gen-App
+  disk_quota: 1024M
+  services:
+  - I Gen App-AdvancedMobileAccess
+  - I Gen App-imfpush
+  - I Gen App-cloudantNoSQLDB
